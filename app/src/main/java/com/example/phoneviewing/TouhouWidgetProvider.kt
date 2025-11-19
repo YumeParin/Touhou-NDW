@@ -111,7 +111,7 @@ class TouhouWidgetProvider : AppWidgetProvider() {
             val hour = calendar.get(Calendar.HOUR_OF_DAY)
 
             val imageResource = when (hour) {
-                in 5..8 -> R.drawable.good_morning // 5:00 AM - 8:59 AM
+                in 5..8 -> R.drawable.koishi_01 // 5:00 AM - 8:59 AM
                 in 9..17 -> R.drawable.reimu_01   // 9:00 AM - 5:59 PM
                 else -> R.drawable.doremy_01    // All other times
             }
